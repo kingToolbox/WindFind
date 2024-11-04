@@ -13,27 +13,19 @@ When developing [WindTerm](https://github.com/kingToolbox/WindTerm), I need a fa
 # License
 **Completely FREE for commercial and non-commercial use without limitations. All released source codes (except thirdparty directory) are provided under the terms of Apache-2.0 license.**
 
-# Download
+# Spotlight
 
-**Windows binary**: https://github.com/kingToolbox/WindFind/releases
+## Any user, any file system
 
-**Linux binary** and **MacOS binary** will be released soon, stay tuned! 
+`WindFind` supports **any user** indexing **any file system**, as long as the operating system can read it, everything can be indexed quickly.
 
-# Source Code
+## Super-fast speed, ultra-small index
 
-Since WindFind is just a by-product of WindTerm, and all the source code is shared with WindTerm, if you have any source code requirements, please visit [WindTerm](https://github.com/kingtoolbox/windterm).
+**`WindFind`'s folder traversal speed is unmatched**. Once it detects administrator privileges, it directly indexes the `MFT`, delivering incredibly fast performance. The thoughtfully designed index data structure allows each file to be represented with just **4 bytes**, capturing its path, file size, and modification time, resulting in **an index file that is smaller than ever before**.
 
-Please note that **WindTerm**, **WindEdit**, and **WindFind** are all **partial** open source projects.
+## Rich features that meet your every need.
 
-# Issues and feature requests
-
-Any issues and feature requests are welcome.
-
-Please click [issues](https://github.com/kingToolbox/WindFind/issues) to commit an issue or a feature request.
-
-Please click [Discussion](https://github.com/kingToolbox/WindFind/discussions) to discuss any topics related to file systems, indexing, and performance improvements.
-
-# Screenshots
+More than just indexing and searching—**it's a master at displaying file lists and calculating sizes**! Enjoy vibrant colors, striking icons, and lightning-fast printing speeds, all designed to elevate your file browsing experience to new heights!
 
 # Features
 
@@ -231,3 +223,23 @@ The version of clients:
     <td>Very fast, tens of ms</td>
   </tr>
 </table>
+
+# Download
+
+**Windows binary**: https://github.com/kingToolbox/WindFind/releases
+
+**Linux binary** and **MacOS binary** will be released soon, stay tuned! 
+
+# Source Code
+
+Since WindFind is just a by-product of WindTerm, and all the source code is shared with WindTerm, if you have any source code requirements, please visit [WindTerm](https://github.com/kingtoolbox/windterm).
+
+Please note that **WindTerm**, **WindEdit**, and **WindFind** are all **partial** open source projects.
+
+# Issues and feature requests
+
+Any issues and feature requests are welcome.
+
+Please click [issues](https://github.com/kingToolbox/WindFind/issues) to commit an issue or a feature request.
+
+Please click [Discussion](https://github.com/kingToolbox/WindFind/discussions) to discuss any topics related to file systems, indexing, and performance improvements.
